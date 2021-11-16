@@ -1,0 +1,23 @@
+{
+    "version": "2",
+    "directories": [
+        ".vscode",
+        "bin",
+        "include",
+        "lib",
+        "src"
+    ],
+    "templates": {
+        "BrixCpp - Clang": {
+            "files": {
+                "BrixCpp/Makefile": "Makefile",
+                "BrixCpp/tasks.json": ".vscode/tasks.json",
+                "BrixCpp/main.cpp": "src/main.cpp",
+                "BrixCpp/c_cpp_properties.json": ".vscode/c_cpp_properties.json"
+            },
+            "openFiles":[
+                "src/main.cpp"
+            ]
+        }
+    }
+}
