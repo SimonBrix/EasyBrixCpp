@@ -13,7 +13,8 @@
                 "BrixCpp/Makefile": "Makefile",
                 "BrixCpp/tasks.json": ".vscode/tasks.json",
                 "BrixCpp/main.cpp": "src/main.cpp",
-                "BrixCpp/c_cpp_properties.json": ".vscode/c_cpp_properties.json"
+                "BrixCpp/c_cpp_properties.json": ".vscode/c_cpp_properties.json",
+				"BrixCpp/launch.json": ".vscode/launch.json"
             },
             "openFiles":[
                 "src/main.cpp"

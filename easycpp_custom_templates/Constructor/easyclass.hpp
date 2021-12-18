@@ -3,6 +3,6 @@
 class easyclass
 {
 public:
-    easyclass();
-    ~easyclass();
+	easyclass();
+	~easyclass();
 };
