@@ -187,7 +187,7 @@ const selectFolderAndDownload = (files, templateName, local, custom) => __awaite
                 return;
             }
             let folder = chosen.uri;
-            yield downloadTemplate(files, templateName, folder.fsPath, local);
+            yield downloadTemplate(files, templateName, folder.fsPath, local, custom);
         }
         catch (err) {
             vscode.window.showErrorMessage(`Easy C++ error: ${err}`);
